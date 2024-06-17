@@ -1,0 +1,350 @@
+---------------------Week 1 ea21e6766fab4492b7a8848519fcc044/-----------------------
+# Abstraction and Modularity
+## Stepwise Refinement
+## *Data refinement*
+## Modular software development
+### Programming language support for abstraction
+## Summary
+# Classes and Objects
+### **Class**
+### **Object**
+## Summary
+# Introduction
+## Styles of programming
+### Imperative
+### Declarative
+## Names, types and values
+## Abstract data types, object-oriented programming
+### Abstract data types
+### Object-Oriented Programming
+# Memory Management
+## Scope of a variable
+## Memory stack
+## Passing arguments to a function
+### Heap
+## Managing heap storage
+# Object-Oriented Programming
+## Objects
+## Abstraction
+## Subtyping
+## Dynamic Lookup *(polymorphism)*
+## Inheritance
+## Subtyping vs Inheritance
+# Types
+## Dynamic vs Static Typing
+## Static analysis
+## Summary
+--------------SECTION BREAK----------------
+---------------------Week 10 95e759e8389b491ebf81d16e7df1584e/-----------------------
+# Concurrency: Threads & Processes
+### Concurrent Programming
+### Creating threads in Java
+### Java threads
+# Monitors
+### *Problem Overview: Atomic test-and-set*
+### Monitors
+### Monitors: external queue
+### Making monitors more flexible
+### Monitors — `wait()`
+### Monitors — `notify()`
+### Monitors — `wait()` and `notify()`
+### Condition variables
+# Mutual Exclusion
+### Mutual Exclusion
+### First attempt: Mutual exclusion for two processes
+### Second attempt: Mutual exclusion for two processes
+### Peterson’s Algorithm
+### Beyond two processes
+### Summary
+# Race Conditions
+### Example: Maintain data consistency
+### Race conditions and mutual exclusion
+# Test and Set
+### Test and set
+### Semaphores
+### Using semaphores
+### Problems with semaphores
+--------------SECTION BREAK----------------
+---------------------Week 11 e63e703fa3b34e0c9805a3f1db095923/-----------------------
+# Example: Concurrency Programming
+### An exercise in concurrent programming
+### An example
+### Analysis
+### Code for `enter`
+### Code for `leave`
+### Summary
+# Monitors in Java
+### Monitors in Java
+### Object locks
+### Object locks...
+### Reentrant locks
+# Thread Safe Collection
+### Concurrency and collections
+### Thread safety and correctness
+### Threads safe collections
+### Using thread safe queues for synchronization
+### Blocking queues
+# Thread in Java
+### Life cycle of a Java thread
+### Interrupts
+### More about threads
+--------------SECTION BREAK----------------
+---------------------Week 12 c10630d84fce424b8886f04fd82f2e2f/-----------------------
+# Graphical Interfaces and Event-Driven Programming
+### GUIs and Events
+### Keeping track of events
+### Better Programming Language (PL) support for events
+### Example
+### Timer
+### Summary
+# More Swing Examples
+### Connecting multiple events to a listener
+### Multicasting: multiple listeners for an event
+### Other elements - checkboxes
+### Summary
+# Swing ToolKit
+### Event driven programming in Java
+### A button that paints its background red
+### Embedding the button inside a panel
+### Frame
+### `main` function
+--------------SECTION BREAK----------------
+---------------------Week 2 b35ae699ee4e43249731a02a77814d9a/-----------------------
+# A First Taste of Java
+## Why so complicated?
+## Compiling and running Java code
+# Basic Datatypes in Java
+### Scalar Types
+## Declarations, assigning values
+## Initialization, constants
+### Operators, shortcuts, type casting
+## Strings
+### Arrays
+# Basic Input and Output in Java
+## Reading input
+### Using Console
+### Using Scanner
+### Generating Output
+# Control Flow in Java
+## Control flow
+### Conditional Execution
+### Conditional Loops
+### Iteration
+### Iterating over elements directly
+### Multiway branching
+# Defining Classes and Objects in Java
+## Defining a class
+## Creating Object
+## Constructors
+## Constructors ...
+## Copy constructors
+--------------SECTION BREAK----------------
+---------------------Week 3 b2e6ea4dedda4bcaa3ed00f598594a2f/-----------------------
+# Dynamic dispatch and polymorphism
+### Code
+### Dynamic dispatch
+### Polymorphism
+### Functions, signatures and overloading
+### Type casting
+# Java modifier
+### `public` vs `private`
+### `static` components
+### `final` components
+# Subclasses and Inheritance
+### A Java class
+### Subclasses
+### Inheritance
+### Summary
+# Subtyping vs inheritance
+## Subclasses, subtyping and inheritance
+## *Subtyping vs inheritance*
+# The Java class hierarchy
+### Multiple inheritance
+### Java class hierarchy
+### Writing Generic Functions — Using `Object` Class
+### Overriding functions
+### Overriding looks for “closest” match
+# The philosophy of OO programming
+### Object Oriented design
+### Object Oriented design: Example
+### Designing objects
+### Relationship between classes
+--------------SECTION BREAK----------------
+---------------------Week 4 63a257f838674597910d7808c48f9a6f/-----------------------
+# Abstract Classes and Interfaces
+### Abstract classes
+### Generic Functions
+### Multiple inheritance
+# Callbacks
+### Implementing a call-back facility
+### Implementing Callbacks
+### A Generic timer
+### Use interfaces
+## Summary
+# Controlled interaction with Objects
+### Querying a database
+# Interfaces
+### Interfaces
+### Exposing limited capabilities
+### Adding methods to interfaces
+### Dealing with conflicts
+# Iterators
+### Linear List
+### Iteration
+### Iterator
+### How do we implement `Iterator` in `LinearList`?
+### Using Iterator
+### Summary
+# Private classes
+### Nested objects
+--------------SECTION BREAK----------------
+---------------------Week 5 8611f771891a4f9f948777934d18d862/-----------------------
+# Generics programming in Java
+### Java Generics — Type Quantifier
+### Polymorphic data structures
+### **NOTE**
+### Summary
+# Java Generics and Subtyping
+### Extending subtyping in contexts
+### Generics and Subtypes
+### Generic Methods
+### Wildcards
+### Wildcard Type Variables
+### Bounded Wildcards
+### Summary
+# Java Generics at run time
+### Erasure of generic information
+### Erasure and overloading
+### Arrays and Generics
+### Wrapper classes
+### Using Wrapper Classes
+# Polymorphism
+### Polymorphism
+### Structural Polymorphism
+### Type consistency
+### Polymorphic data structures
+### Generic Programming in Java
+# Reflection
+### Reflection
+### Reflection in Java
+### Introspection in Java
+### The class `Class`
+### Using the `Class` object
+### The class `Class`
+### Reflection and Security
+### Limitations of Java reflection
+--------------SECTION BREAK----------------
+---------------------Week 6 6298566055aa4dba9a1a15a82caadeed/-----------------------
+# Collection
+### The `Collection` interface
+### Using iterators
+### Removing elements
+### The `Collection` interface — the full story
+### The `AbstractCollection` class
+# Concrete Collections
+### Built-in data types
+### The `List` Interface
+### The `List` interface and random access
+### The `AbstractList` interface
+### Using concrete list classes
+### The `Set` interface
+### Concrete sets
+### The `Queue` interface
+# Maps
+## Maps
+### Updating a map
+### Extracting keys and values
+### Concrete implementation of Map
+# The benefits of Indirection
+### Abstract data types
+### Multiple Implementations
+### Adding indirection
+--------------SECTION BREAK----------------
+---------------------Week 7 9e36154bb27a4da4ad251ffdc0ba0f11/-----------------------
+# Assertions
+### Documenting and checking assumptions
+### Assertions
+### Enabling and Disabling assertions
+# Dealing with Errors
+### Exception Handling
+### Java’s classification of errors
+### Summary
+# Exceptions in Java
+### Catching and Handling Exceptions
+### Catching Multiple Exceptions
+### Notify checked exceptions
+### Throwing Exceptions
+### Throwing Exceptions...
+### Customized Exceptions
+### More on catching exceptions
+### Cleaning up resources
+# Logging
+### Diagnostic messages
+### Logging
+### Logging Levels
+### Summary
+# Packages
+### Packages
+### Creating and naming packages
+### More about visibility
+--------------SECTION BREAK----------------
+---------------------Week 8 4d31b9679e48416d8cd64b62e5e9487a/-----------------------
+# Cloning
+### Copying an object
+### The `clone()` method
+### Shallow copy
+### Deep copy
+### Deep copy ...
+### Restrictions on `clone()`
+# Higher Order Functions
+### Passing functions
+### Functional interfaces
+### Lambda expressions
+### Passed named functions
+### Method references
+# Streams
+### Operating on collections
+### Why streams?
+### Working with streams
+### Creating Streams
+### Processing streams
+### Stream transformations
+### Reducing a stream to a result
+# Type Inference
+### Type declarations vs type inference
+### Type inference
+### Type inference
+### Type inference in Java
+--------------SECTION BREAK----------------
+---------------------Week 9 4b2e7bb43cf6470297594b33171b9a01/-----------------------
+# Collecting results from Streams
+### Collecting values from a stream
+### Storing a stream as a collection
+### Stream summaries
+### Converting a stream to a map
+### Grouping and partitioning values
+# Input/Output Streams
+### Input and Output streams
+### Reading raw bytes
+### Writing raw bytes
+### Connecting a stream to an external source
+### Reading text
+### Writing text
+### Reading binary data
+### Writing binary data
+### Other features
+# Optional Types
+### Dealing with empty streams
+### Handling missing optional values
+### Ignoring missing values
+### Creating an optional value
+### Passing on optional values
+### Composing optional values of different types
+### Turning an optional into a stream
+### Summary
+# Serialization
+### Reading and Writing Objects
+### Reading and writing objects ...
+### How serialization works
+### Customizing serialization
+--------------SECTION BREAK----------------
