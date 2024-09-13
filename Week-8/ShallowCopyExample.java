@@ -1,4 +1,3 @@
-// Shallow Copy Example
 class Address {
     private String city;
 
@@ -8,6 +7,10 @@ class Address {
 
     public String getCity() {
         return city;
+    }
+
+    public void setCity(String new_City){
+        this.city = new_City;
     }
 }
 
@@ -20,7 +23,6 @@ class Employee implements Cloneable {
         this.address = address;
     }
 
-    @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
@@ -40,12 +42,12 @@ public class ShallowCopyExample {
         Employee original = new Employee("John", address);
         Employee cloned = (Employee) original.clone();
 
-        System.out.println("Original City: " + original.getAddress().getCity());
-        System.out.println("Cloned City: " + cloned.getAddress().getCity());
+        System.out.println("Original City: " + original.getAddress().getCity()); // New York
+        System.out.println("Cloned City: " + cloned.getAddress().getCity()); // New York
 
-        cloned.getAddress().setCity("San Francisco");
+        cloned.getAddress().setCity("San Francisco"); // notice: we changed the city (Address)
 
-        System.out.println("Original City after modification: " + original.getAddress().getCity());
-        System.out.println("Cloned City after modification: " + cloned.getAddress().getCity());
+        System.out.println("Original City after modification: " + original.getAddress().getCity());// SF
+        System.out.println("Cloned City after modification: " + cloned.getAddress().getCity()); // SF
     }
 }

@@ -6,7 +6,7 @@ public class ScannerExample {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your name:");
-        String name = scanner.nextLine();
+        String name = scanner.nextLine(); // '\n'
 
         System.out.println("Enter your age:");
         int age = scanner.nextInt();

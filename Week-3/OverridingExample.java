@@ -1,4 +1,3 @@
-// Overriding Functions Example
 class Animal {
     void sound() {
         System.out.println("Animal makes a sound");
@@ -6,7 +5,6 @@ class Animal {
 }
 
 class Dog extends Animal {
-    @Override
     void sound() {
         System.out.println("Dog barks");
     }

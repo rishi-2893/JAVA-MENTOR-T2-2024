@@ -1,11 +1,12 @@
 public class ArraysExample {
     public static void main(String[] args) {
-        // Create an array of integers
-        int[] numbers = {1, 2, 3, 4, 5};
+        // I want to create an array of integers
+        int[] numbers = {4, 9, 11, 100};
 
-        // Iterate through the numbers array
-        for (int i = 0; i < numbers.length; i++){
-            System.out.println("Current index: " + i);
-        }
+        // How to access the elements of the above array?
+        System.out.println(numbers[2]);
+
+        // System.out.println(numbers[-1]); // This gives ERROR
+        System.out.println(numbers[numbers.length - 1]);
     }
 }

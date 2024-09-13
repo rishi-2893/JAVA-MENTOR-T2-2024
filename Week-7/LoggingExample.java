@@ -1,23 +1,18 @@
-// Logging Example
 import java.util.logging.Logger;
 import java.util.logging.Level;
+import java.util.logging.ConsoleHandler;
 
 public class LoggingExample {
-    private static final Logger logger = Logger.getLogger(LoggingExample.class.getName());
+    private static final Logger logger = Logger.getLogger("LoggingExample");
 
     public static void main(String[] args) {
-        logger.info("This is an info message");
-        logger.warning("This is a warning message");
-        logger.severe("This is a severe message");
+        logger.setLevel(Level.FINE);
 
-        try {
-            int result = divide(10, 0);
-        } catch (ArithmeticException e) {
-            logger.log(Level.SEVERE, "Error occurred while dividing", e);
-        }
-    }
+        ConsoleHandler consoleHandler = new ConsoleHandler();
+        consoleHandler.setLevel(Level.FINE);
+        logger.addHandler(consoleHandler);
 
-    public static int divide(int a, int b) {
-        return a / b;
+        logger.config("This is config level message");
+        logger.fine("This is fine level");
     }
 }

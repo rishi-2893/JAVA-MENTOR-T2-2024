@@ -1,7 +1,8 @@
-// Arrays and Generics Example
 public class ArraysGenericsExample {
-    public static <T> void printArray(T[] array) {
-        for (T element : array) {
+    int a;
+    float b;
+    public static <T> void printArray(T[] justAVar) {
+        for (T element : justAVar) {
             System.out.println(element);
         }
     }
@@ -11,6 +12,8 @@ public class ArraysGenericsExample {
         String[] strArray = {"A", "B", "C"};
 
         printArray(intArray);
+
+
         printArray(strArray);
     }
 }

@@ -1,7 +1,7 @@
-// Concrete Collections Example
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.TreeSet;
 
 public class ConcreteCollectionsExample {
     public static void main(String[] args) {
@@ -14,10 +14,20 @@ public class ConcreteCollectionsExample {
 
         // HashSet
         HashSet<String> hashSet = new HashSet<>();
-        hashSet.add("One");
+        hashSet.add("ZOne");
         hashSet.add("Two");
         hashSet.add("Three");
         System.out.println("HashSet: " + hashSet);
+
+
+        // TreeSet
+        TreeSet<String> treeSet = new TreeSet<>();
+        treeSet.add("ZOne");
+        treeSet.add("Two");
+        treeSet.add("Three");
+        System.out.println("TreeSet: " + treeSet);
+
+
 
         // LinkedList
         LinkedList<String> linkedList = new LinkedList<>();

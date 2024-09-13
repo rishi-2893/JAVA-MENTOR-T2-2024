@@ -1,6 +1,7 @@
-// Writing Generic Functions Using Object Class Example
 public class GenericFunctionExample {
-    public static void print(Object obj) {
+    // AIM: We want to create a `print` function which takes an argument of 
+    // type String, integer or double and prints the value to the console
+    public static void print(Object obj){
         System.out.println(obj.toString());
     }
 
@@ -10,3 +11,5 @@ public class GenericFunctionExample {
         print(45.67);
     }
 }
+
+

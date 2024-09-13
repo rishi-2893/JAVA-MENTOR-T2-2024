@@ -1,13 +1,28 @@
 // Method and Constructor Overloading Example
 class MathOperations {
     // Method overloading
-    int add(int a, int b) {
+
+    // // Create a function to add integers
+    // int addInt(int a, int b){
+    //     return a + b;
+    // }
+
+    // // Function to add doubles
+    // double addDouble(double a, double b){
+    //     return a + b;
+    // }
+
+    // Method overloading helps!
+
+    int add(int a, int b){
         return a + b;
     }
 
-    double add(double a, double b) {
+    // Overloaded add() method to add doubles
+    double add(double a, double b){
         return a + b;
     }
+
 
     // Constructor overloading
     MathOperations() {
@@ -22,6 +37,7 @@ class MathOperations {
 public class OverloadingExample {
     public static void main(String[] args) {
         MathOperations math = new MathOperations();
+        
         MathOperations math2 = new MathOperations(5, 10);
         
         System.out.println("Int Add: " + math.add(5, 3));

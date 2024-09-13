@@ -7,7 +7,7 @@ public class OuterClass {
             System.out.println(outerField);
         }
     }
-
+    
     public void createInnerInstance() {
         InnerClass inner = new InnerClass();
         inner.display();

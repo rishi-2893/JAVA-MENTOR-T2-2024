@@ -1,13 +1,11 @@
-// The clone() Method Example
-class Person implements Cloneable {
+class Person implements Cloneable{
     private String name;
 
     public Person(String name) {
         this.name = name;
     }
 
-    @Override
-    public Object clone() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException{
         return super.clone();
     }
 

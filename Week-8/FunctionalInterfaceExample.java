@@ -1,5 +1,3 @@
-// Functional Interfaces and Lambda Expressions Example
-@FunctionalInterface
 interface Calculator {
     int calculate(int a, int b);
 }

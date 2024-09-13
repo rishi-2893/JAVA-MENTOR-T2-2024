@@ -3,8 +3,14 @@ public class ForEachLoopExample {
     public static void main(String[] args) {
         String[] fruits = {"Apple", "Banana", "Cherry"};
 
-        for (String fruit : fruits) {
+        // For-Each loop is used to iterate the values of the array
+        for(String fruit : fruits){
             System.out.println(fruit);
+        }
+        
+        int[] numbers = {4, 9, 11, 100};
+        for(int number : numbers){
+            System.out.println(number);
         }
     }
 }

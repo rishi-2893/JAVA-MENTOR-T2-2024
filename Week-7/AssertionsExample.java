@@ -1,8 +1,9 @@
 // To enable assertions, run the program with the -ea (enable assertions) flag: java -ea AssertionsExample
 // Assertions Example
+
 public class AssertionsExample {
     public static void main(String[] args) {
-        int number = 5;
+        int number = -1;
         assert number > 0 : "Number should be positive";
 
         System.out.println("Number is positive");

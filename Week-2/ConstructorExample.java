@@ -1,4 +1,3 @@
-// Constructors Example
 class Book {
     String title;
     String author;
@@ -16,7 +15,10 @@ class Book {
 
 public class ConstructorExample {
     public static void main(String[] args) {
+
+        // Creating a Book object
         Book book = new Book("1984", "George Orwell");
+        
         book.display();
     }
 }

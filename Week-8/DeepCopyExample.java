@@ -24,10 +24,9 @@ class Employee implements Cloneable {
         this.address = address;
     }
 
-    @Override
     public Object clone() throws CloneNotSupportedException {
-        Employee cloned = (Employee) super.clone();
-        cloned.address = new Address(this.address.getCity()); // Perform deep copy of Address object
+        Employee cloned = (Employee) super.clone(); // Creates of copy of Employee
+        cloned.address = new Address(this.address.getCity()); // Creates copy of Address
         return cloned;
     }
 
@@ -38,20 +37,29 @@ class Employee implements Cloneable {
     public Address getAddress() {
         return address;
     }
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String toString(){
+        return this.name + " " + this.address.getCity();
+    }
 }
 
 public class DeepCopyExample {
     public static void main(String[] args) throws CloneNotSupportedException {
         Address address = new Address("New York");
+
         Employee original = new Employee("John", address);
-        Employee cloned = (Employee) original.clone();
+        Employee cloned = (Employee) original.clone(); // Clone of original
 
-        System.out.println("Original City: " + original.getAddress().getCity());
-        System.out.println("Cloned City: " + cloned.getAddress().getCity());
+        cloned.setName("Najla");
 
-        cloned.getAddress().setCity("San Francisco");
-
-        System.out.println("Original City after modification: " + original.getAddress().getCity());
-        System.out.println("Cloned City after modification: " + cloned.getAddress().getCity());
+        System.out.println(original);
+        System.out.println(cloned);
     }
 }
